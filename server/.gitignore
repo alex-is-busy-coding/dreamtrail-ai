@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+.pyenv/
+Pipfile.lock
+poetry.lock
+
+# Environment variables
+.env
+.env.*
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+
+# Database and SQLite
+*.sqlite3
+*.db
+
+# Cache files
+*.cache
+*.mypy_cache/
+*.pytest_cache/
+*.coverage
+.coverage.*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+*.cover
+.coverage
+coverage.xml
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
+
+# PyCharm specific
+.idea/
