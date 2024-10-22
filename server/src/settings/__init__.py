@@ -1,3 +1,3 @@
-from settings.base import AppSettings
+from .base import AppSettings
 
 __all__ = ["AppSettings"]
