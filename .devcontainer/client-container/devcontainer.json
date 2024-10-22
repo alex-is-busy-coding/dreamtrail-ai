@@ -1,0 +1,22 @@
+{
+    "name": "Client Dev Container",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "client",
+    "workspaceFolder": "/app",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode"
+        ],
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "/bin/sh"
+        }
+      }
+    },
+    "postCreateCommand": "npm install",
+    "remoteEnv": {
+      "ENVIRONMENT": "development"
+    },
+    "forwardPorts": [3000]
+  }  
