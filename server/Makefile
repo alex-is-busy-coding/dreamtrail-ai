@@ -1,7 +1,7 @@
 # Format code
 .PHONY: format
 format:
-	poetry run isort .
+	poetry run black .
 
 # Sort imports
 .PHONY: sort
